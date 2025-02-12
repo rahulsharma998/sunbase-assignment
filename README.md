@@ -1,17 +1,17 @@
-#Form Builder Project
+# Form Builder Project
 A simple web-based form builder that allows users to dynamically add, arrange, and delete form fields. This project supports various form field types, including text inputs, selects, textareas, and checkboxes, and features drag-and-drop functionality for easy arrangement.
 
-Features
+## Features
 Drag and Drop: Rearrange form fields easily with a drag-and-drop interface.
 Dynamic Field Addition: Add text inputs, selects, textareas, and checkboxes to the form.
 Save Functionality: Collect all form data and log it to the console for further processing.
 Delete Fields: Remove unwanted form fields by clicking the delete button next to each field.
 Responsive UI: The UI is designed to be user-friendly and responsive for different screen sizes.
-Tech Stack
+## Tech Stack
 HTML: Structure of the web page and form elements.
 CSS: Styling the form builder interface and form fields.
 JavaScript: Interactivity, dynamic field addition, drag-and-drop functionality, and form saving.
-Project Setup
+## Project Setup
 Clone the repository:
 ```
 git clone https://github.com/rahulsharma998/sunbase-assignment
@@ -42,7 +42,7 @@ Text Input: Standard text input field.
 Select: Dropdown list with predefined options.
 Textarea: Multi-line text input.
 Checkbox: Single checkbox for a yes/no option.
-Project Structure
+## Project Structure
 ```bash
 form-builder/
 ├── index.html        # Main HTML file containing the structure of the page
@@ -59,7 +59,7 @@ The CSS file contains all the styles for the form builder interface. It is respo
 index.js
 The JavaScript file handles the interactivity of the form builder, including the drag-and-drop functionality, field addition, field deletion, and saving the form data. It also defines the fields available to the user (e.g., input, select, textarea, checkbox).
 
-Example Output
+## Example Output
 Once you've added fields to the form and clicked the Save button, the following data will be logged to the console:
 ```
 [
@@ -101,6 +101,6 @@ Create a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgements
+## Acknowledgements
 Inspiration for the drag-and-drop functionality comes from various drag-and-drop libraries and tutorials available online.
 Thanks to MDN Web Docs for providing resources on JavaScript event handling and DOM manipulation.
