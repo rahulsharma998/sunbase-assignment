@@ -1,4 +1,4 @@
-##Form Builder Project
+Form Builder Project
 A simple web-based form builder that allows users to dynamically add, arrange, and delete form fields. This project supports various form field types, including text inputs, selects, textareas, and checkboxes, and features drag-and-drop functionality for easy arrangement.
 
 Features
@@ -13,19 +13,18 @@ CSS: Styling the form builder interface and form fields.
 JavaScript: Interactivity, dynamic field addition, drag-and-drop functionality, and form saving.
 Project Setup
 Clone the repository:
-git clone [(https://github.com/rahulsharma998/sunbase-assignment)]
+```
+git clone https://github.com/rahulsharma998/sunbase-assignment
 cd form-builder
+```
 Open the project in a browser:
-
 You can open the index.html file directly in your browser.
-
 Alternatively, you can set up a local server using a simple HTTP server (like http-server for Node.js or Python's built-in HTTP server) to view the project.
-
 Deployment
 This project is deployed on Vercel, which makes it easy to deploy front-end applications like this one.
 
 Live Demo
-You can view the live demo of the form builder at:https://sunbase-assignment-fawn.vercel.app/
+You can view the live demo of the form builder at:
 
 Live Demo on Vercel
 
@@ -33,26 +32,24 @@ Simply visit the link above to interact with the form builder and explore its fe
 
 Usage
 Adding Fields: Click on the buttons on the left sidebar (e.g., "Sample Input", "Sample Select", "Sample Textarea", "Sample Checkbox") to add the corresponding form fields to the main form area.
-
 Rearranging Fields: Click and hold any form field to drag it to a different position in the form.
-
 Deleting Fields: Click the Delete button next to any field to remove it from the form.
-
 Saving Form Data: Once you've arranged the fields as you like, click the Save button to log the form data in the console, which includes the field type, label, and options (if applicable).
-
-Form Field Types: The following types of fields are available:
+Form Field Types
+The following types of fields are available:
 
 Text Input: Standard text input field.
 Select: Dropdown list with predefined options.
 Textarea: Multi-line text input.
 Checkbox: Single checkbox for a yes/no option.
-
 Project Structure
+```bash
 form-builder/
 ├── index.html        # Main HTML file containing the structure of the page
-├── index.css        # Styling for the form builder and form fields
-├── index.js         # JavaScript for adding, deleting, and managing form fields
+├── index.css         # Styling for the form builder and form fields
+├── index.js          # JavaScript for adding, deleting, and managing form fields
 └── README.md         # This README file
+```
 index.html
 The HTML file contains the layout and structure for the form builder interface. It includes buttons for adding form fields, a main container to display the form, and an area for dragging and dropping fields.
 
