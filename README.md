@@ -1,4 +1,4 @@
-Form Builder Project
+###Form Builder Project
 A simple web-based form builder that allows users to dynamically add, arrange, and delete form fields. This project supports various form field types, including text inputs, selects, textareas, and checkboxes, and features drag-and-drop functionality for easy arrangement.
 
 Features
@@ -61,7 +61,7 @@ The JavaScript file handles the interactivity of the form builder, including the
 
 Example Output
 Once you've added fields to the form and clicked the Save button, the following data will be logged to the console:
-
+```
 [
     {
         "id": "c0ac49c5-871e-4c72-a878-251de465e6b4",
@@ -87,6 +87,7 @@ Once you've added fields to the form and clicked the Save button, the following 
         "label": "Sample Checkbox"
     }
 ]
+```
 Contributing
 Feel free to fork the repository and create a pull request with any improvements or new features you'd like to add!
 
