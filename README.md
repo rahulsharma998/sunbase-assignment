@@ -1,4 +1,4 @@
-Form Builder Project
+##Form Builder Project
 A simple web-based form builder that allows users to dynamically add, arrange, and delete form fields. This project supports various form field types, including text inputs, selects, textareas, and checkboxes, and features drag-and-drop functionality for easy arrangement.
 
 Features
@@ -13,11 +13,7 @@ CSS: Styling the form builder interface and form fields.
 JavaScript: Interactivity, dynamic field addition, drag-and-drop functionality, and form saving.
 Project Setup
 Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/form-builder.git
+git clone [(https://github.com/rahulsharma998/sunbase-assignment)]
 cd form-builder
 Open the project in a browser:
 
